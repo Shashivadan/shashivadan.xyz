@@ -66,6 +66,9 @@ importers:
 
   apps/www:
     dependencies:
+      '@radix-ui/react-slot':
+        specifier: ^1.1.2
+        version: 1.1.2(@types/react@19.0.10)(react@19.0.0)
       '@workspace/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -81,6 +84,9 @@ importers:
       next:
         specifier: 15.1.8
         version: 15.1.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      next-themes:
+        specifier: ^0.4.4
+        version: 0.4.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: ^19.0.0
         version: 19.0.0

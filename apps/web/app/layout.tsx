@@ -5,9 +5,9 @@ import localFont from "next/font/local";
 import "@workspace/ui/globals.css";
 import { Providers } from "@/components/providers";
 
-const myFont = localFont({
-  src: "./my-font.woff2",
-});
+// const myFont = localFont({
+//   src: "./my-font.woff2",
+// });
 
 export default function RootLayout({
   children,
